@@ -1,3 +1,4 @@
+# I was given a formula and asked to find the the values of X and Y. This is my solution to brute force the formula and find the values for X and Y given values A-F.
 a = int(input())
 b = int(input())
 c = int(input())
