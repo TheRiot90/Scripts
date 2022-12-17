@@ -1,3 +1,4 @@
+# Takes a highway number and determines if it is valid. If it is valid it will output if it is a primary or auxillary highway and if it is auxillary it will output which highway it serves. It will also output which direction it travels.
 highway_number = int(input())
 
 if (highway_number % 100) == 0:
