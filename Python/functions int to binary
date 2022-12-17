@@ -1,0 +1,17 @@
+def int_to_reverse_binary(x):
+    reverse_binary = ''
+    while x > 0:
+        reverse_binary += str(x % 2)
+        x = x // 2
+    return reverse_binary
+
+
+def string_reverse(x):
+    binary = ''
+    for i in x:
+        binary = i + binary
+    return binary
+
+
+if __name__ == '__main__':
+    print(string_reverse(int_to_reverse_binary(int(input()))))
