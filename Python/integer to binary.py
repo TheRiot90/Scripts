@@ -1,3 +1,4 @@
+# converts an integer to binary in reverse order.
 x = int(input())
 
 while x > 0:
