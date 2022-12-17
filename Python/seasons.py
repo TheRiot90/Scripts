@@ -1,3 +1,4 @@
+# Based on user input for month and day it will output a season.
 input_month = input()
 input_day = int(input())
 
